@@ -1,3 +1,7 @@
+<% if user_signed_in? %>
+<h1>You made it</h1>
+<% else %>
+
 <div class="hero-unit">
   <h1>OUR MISSION IS TO PROVIDE EDUCATIONAL OPPORTUNITIES TO CHILDREN IN IMPOVERISHED COMMUNITIES AROUND THE WORLD, THROUGH THE POWER OF ART.</h1>
   <p></p>
@@ -7,3 +11,4 @@
     </a>
   </p>
 </div>
+<% end %>
